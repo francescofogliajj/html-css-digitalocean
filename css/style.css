@@ -60,24 +60,25 @@ nav ul {
 }
 /* /DigitalOcean - Barra di Navigazione */
 
-
+/* Welcome to the developer cloud */
 .header_bottom {
   margin-top: 80px;
-  height: 600px;
+  /* height: 450px; */
   background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-size: cover;
 }
 
-.header_bottom h1,
-.header_bottom p {
+.welcome h1,
+.welcome p {
   color: white;
 }
-.header_bottom h1 {
+.welcome h1 {
   font-size: 60px;
   font-weight: bold;
   margin-top: 60px;
   margin-bottom: 30px;
 }
-.header_bottom p {
+.welcome p {
   font-size: 24px;
   font-weight: bold;
   line-height: 48px;
@@ -85,8 +86,6 @@ nav ul {
 }
 
 .card {
-  height: 370px;
-  width: 470px;
   background-color: white;
   border-radius: 6px;
   text-align: center;
@@ -107,6 +106,7 @@ nav ul {
 .button {
   width: 100%;
   background-color: #006AFF;
+  font-weight: bold;
   color: white;
   margin-bottom: 10px;
 }
@@ -114,22 +114,32 @@ nav ul {
   background-color: #1633FF;
   color: white;
 }
-.header_bottom a {
+.card form a {
   text-decoration: none;
   font-weight: bold;
   color: black;
 }
-.header_bottom a:hover span {
+.card form a:hover span {
   color: #006AFF;
 }
 .button_google {
   width: 100%;
+  margin-bottom: 10px;
 }
 .button_google:hover {
   background-color: white;
   color: #006AFF;
 }
-
+.button_google i {
+  font-size: 16px;
+}
+.button_google:hover i {
+  color: black;
+}
+.card p a {
+  color: #006AFF;
+}
+/* Welcome to the developer cloud */
 
 @media screen and (max-width: 992px) {
 
