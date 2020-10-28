@@ -141,7 +141,7 @@ nav ul {
 }
 /* Welcome to the developer cloud */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 
   .display_none_xs {
     display: none;
@@ -149,7 +149,7 @@ nav ul {
 
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 992px) {
 
   #display_none_md {
     display: none;
