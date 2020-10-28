@@ -63,7 +63,6 @@ nav ul {
 /* Welcome to the developer cloud */
 .header_bottom {
   margin-top: 80px;
-  /* height: 450px; */
   background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
   background-size: cover;
 }
@@ -75,7 +74,7 @@ nav ul {
 .welcome h1 {
   font-size: 60px;
   font-weight: bold;
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: 30px;
 }
 .welcome p {
@@ -89,8 +88,9 @@ nav ul {
   background-color: white;
   border-radius: 6px;
   text-align: center;
-  margin-top: 50px;
   padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 80px;
 }
 .card h3 {
   font-weight: bold;
