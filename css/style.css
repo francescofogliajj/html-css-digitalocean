@@ -2,6 +2,7 @@ body {
   background-color: red;
 }
 
+/* DigitalOcean - Barra di Navigazione */
 nav {
   background-color: white;
   height: 80px;
@@ -44,6 +45,7 @@ nav ul {
 .list_style li a:hover {
   color: #006AFF;
 }
+
 #sign_up {
   padding: 10px;
   border-radius: 5px;
@@ -53,4 +55,28 @@ nav ul {
 #sign_up:hover {
   background-color: #006AFF;
   color: white;
+}
+
+#display_none_md {
+  line-height: 80px;
+  cursor: pointer;
+  color: #006AFF;
+}
+/* /DigitalOcean - Barra di Navigazione */
+
+
+@media screen and (max-width: 992px) {
+
+  .display_none_xs {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 993px) {
+
+  #display_none_md {
+    display: none;
+  }
+
 }
