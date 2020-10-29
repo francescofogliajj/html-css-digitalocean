@@ -1,4 +1,4 @@
-/* DigitalOcean - Barra di Navigazione */
+/* DigitalOcean - Navbar */
 nav {
   background-color: white;
   height: 80px;
@@ -58,7 +58,7 @@ nav ul {
   cursor: pointer;
   color: #006AFF;
 }
-/* /DigitalOcean - Barra di Navigazione */
+/* /DigitalOcean - Navbar */
 
 /* Welcome to the developer cloud */
 .header_bottom {
@@ -147,6 +147,7 @@ nav ul {
   background-color: #F3F5F9;
   padding: 60px 0;
 }
+
 #logos h4 {
   text-transform: uppercase;
   font-weight: bold;
@@ -168,6 +169,62 @@ nav ul {
   color: #1633FF;
 }
 /* Innovative businesses trust DigitalOcean */
+
+/* Deploy and scale seamlessly */
+#deploy {
+  padding-top: 40px;
+}
+
+.deploy_top h2 {
+  color: #031B4E;
+  font-weight: bold;
+  font-size: 36px;
+}
+.deploy_top p {
+  color: #5B6987;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+#deploy li {
+  list-style: none;
+  cursor: pointer;
+  border-left: 2px solid lightgrey;
+  color: #5B6987;
+  font-size: 20px;
+  padding: 10px;
+}
+#deploy li:hover {
+  color: #031B4E;
+  border-color: #006AFF;
+}
+
+.box img {
+  height: 40px;
+}
+.box h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #031B4E;
+}
+.box p {
+  font-size: 16px;
+  color: #5B6987;
+  padding-bottom: 30px;
+}
+/* /Deploy and scale seamlessly */
+
+
+@media screen and (max-width: 767px) {
+
+  #deploy li {
+    margin-left: -40px;
+  }
+  #deploy p {
+    padding-bottom: 0;
+  }
+
+}
 
 @media screen and (max-width: 991px) {
 
