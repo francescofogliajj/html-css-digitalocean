@@ -8,6 +8,7 @@ nav {
   right: 0;
   left: 0;
   z-index: 2;
+  box-shadow: 0 1px 3px lightgrey;
 }
 
 nav img {
@@ -269,6 +270,39 @@ nav ul {
 }
 /* /Designed for developers */
 
+/* Built for business */
+#business {
+  padding: 40px 0;
+}
+
+#business h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #031B4E;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#business img {
+  height: 40px;
+}
+#business h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #031B4E;
+}
+#business p {
+  font-size: 16px;
+  color: #5B6987;
+}
+#business a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #006AFF;
+}
+#business a:hover {
+  color: #1633FF;
+}
+/* /Built for business */
 
 @media screen and (max-width: 991px) {
 
