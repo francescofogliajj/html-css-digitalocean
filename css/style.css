@@ -90,8 +90,7 @@ nav ul {
   border-radius: 6px;
   text-align: center;
   padding: 10px;
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin: 80px 0;
 }
 .card h3 {
   font-weight: bold;
@@ -173,13 +172,15 @@ nav ul {
 
 /* Deploy and scale seamlessly */
 #deploy {
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .deploy_top h2 {
   color: #031B4E;
   font-weight: bold;
   font-size: 36px;
+  margin-bottom: 30px;
 }
 .deploy_top p {
   color: #5B6987;
@@ -209,8 +210,8 @@ nav ul {
   color: #031B4E;
 }
 .box p {
-  font-size: 16px;
   color: #5B6987;
+  font-size: 16px;
   padding-bottom: 30px;
 }
 /* /Deploy and scale seamlessly */
@@ -218,14 +219,15 @@ nav ul {
 /* Designed for developers */
 #designed {
   background-color: #F3F5F9;
-  padding: 40px 0;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .designed_top h2 {
   color: #031B4E;
   font-weight: bold;
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .designed_top p {
   color: #5B6987;
@@ -238,8 +240,7 @@ nav ul {
 }
 .screenshot img {
   height: 500px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 .screenshot i {
   cursor: pointer;
@@ -253,8 +254,8 @@ nav ul {
   color: #031B4E;
 }
 .screenshot p {
-  font-size: 16px;
   color: #031B4E;
+  font-size: 16px;
 }
 
 .btn_icon {
@@ -272,13 +273,14 @@ nav ul {
 
 /* Built for business */
 #business {
-  padding: 40px 0;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 #business h2 {
-  font-size: 36px;
-  font-weight: bold;
   color: #031B4E;
+  font-weight: bold;
+  font-size: 36px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -291,8 +293,8 @@ nav ul {
   color: #031B4E;
 }
 #business p {
-  font-size: 16px;
   color: #5B6987;
+  font-size: 16px;
 }
 #business a {
   text-decoration: none;
