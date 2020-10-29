@@ -249,7 +249,7 @@ nav ul {
 .screenshot i {
   color: #5B6987;
 }
-.screenshot i:hover {
+#chevron_right:hover {
   color: #031B4E;
 }
 .screenshot p {
