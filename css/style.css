@@ -63,7 +63,7 @@ nav ul {
 /* Welcome to the developer cloud */
 .header_bottom {
   margin-top: 80px;
-  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
   background-size: cover;
 }
 
@@ -140,6 +140,34 @@ nav ul {
   color: #006AFF;
 }
 /* Welcome to the developer cloud */
+
+/* Innovative businesses trust DigitalOcean */
+#logos {
+  text-align: center;
+  background-color: #F3F5F9;
+  padding: 60px 0;
+}
+#logos h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #5B6987;
+  margin-bottom: 30px;
+}
+#logos img {
+  height: 80px;
+}
+#logos img:last-child {
+  margin-bottom: 30px;
+}
+#logos a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #006AFF;
+}
+#logos a:hover {
+  color: #1633FF;
+}
+/* Innovative businesses trust DigitalOcean */
 
 @media screen and (max-width: 991px) {
 
