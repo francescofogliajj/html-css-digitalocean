@@ -244,11 +244,9 @@ nav ul {
 }
 .screenshot i {
   cursor: pointer;
+  color: #5B6987;
   font-size: 40px;
   padding: 20px;
-}
-.screenshot i {
-  color: #5B6987;
 }
 #chevron_right:hover {
   color: #031B4E;
@@ -262,7 +260,7 @@ nav ul {
   display: inline-block;
   cursor: pointer;
   border-radius: 50%;
-  padding: 5px 5px;
+  padding: 4px 4px;
   border: 2px solid #006AFF;
   background-color: #F3F5F9;
 }
@@ -361,6 +359,80 @@ nav ul {
 }
 /* /Data Center */
 
+/* Development teams */
+#development {
+  background-color: #F3F5F9;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+#development h2 {
+  color: #031B4E;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.teams {
+  display: inline-block;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 60px;
+  background-color: white;
+  box-shadow: 2px 2px 4px lightgrey;
+  position: relative;
+}
+
+#teams_chevron_left,
+#teams_chevron_right {
+  cursor: pointer;
+  color: #5B6987;
+  font-size: 40px;
+  position: absolute;
+}
+#teams_chevron_right:hover {
+  color: #031B4E;
+}
+#teams_chevron_left {
+  top: 50%;
+  left: -5%;
+  transform: translate(-50%, -50%);
+}
+#teams_chevron_right {
+  top: 50%;
+  right: -9%;
+  transform: translate(-50%, -50%);
+}
+
+.teams img {
+  height: 30px;
+  margin-bottom: 30px;
+}
+#quote {
+  color: #5B6987;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+#rick_o_toole {
+  font-size: 18px;
+  font-weight: bold;
+  color: #031B4E;
+}
+#founder {
+  font-size: 16px;
+  color: #031B4E;
+  margin-bottom: 30px;
+}
+.teams a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #006AFF;
+}
+.teams a:hover {
+  color: #1633FF;
+}
+/* /Development teams */
 
 @media screen and (max-width: 991px) {
 
@@ -404,6 +476,11 @@ nav ul {
   }
   .list_data_center a {
     width: 30%;
+  }
+
+  #teams_chevron_left,
+  #teams_chevron_right {
+    display: none;
   }
 
 }
