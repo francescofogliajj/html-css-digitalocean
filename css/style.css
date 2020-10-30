@@ -20,26 +20,26 @@ nav ul {
   line-height: 80px;
 }
 
-.list_style {
+.list_navbar {
   list-style: none;
 }
-.list_style li {
+.list_navbar li {
   display: inline-block;
   margin-left: 10px;
 }
-.list_style a {
+.list_navbar a {
   text-decoration: none;
 }
-.list_style li span,
-.list_style li i,
-.list_style li a {
+.list_navbar li span,
+.list_navbar li i,
+.list_navbar li a {
   cursor: pointer;
   color: #031B4E;
 }
-.list_style li span:hover {
+.list_navbar li span:hover {
   color: #006AFF;
 }
-.list_style li a:hover {
+.list_navbar li a:hover {
   color: #006AFF;
 }
 
@@ -306,6 +306,62 @@ nav ul {
 }
 /* /Built for business */
 
+/* Data Center */
+#data_center {
+  background: linear-gradient(to bottom, #006AFF, #031B4E);
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+#data_center h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list_data_center {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.list_data_center li {
+  border-bottom: 1px solid white;
+  height: 40px;
+}
+.list_data_center li:last-child {
+  border-bottom: none;
+}
+.list_data_center span,
+.list_data_center p,
+.list_data_center a {
+  line-height: 40px;
+}
+.list_data_center span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  width: 20%;
+  padding-left: 10px;
+}
+.list_data_center p {
+  display: inline-block;
+  color: #D3D3D3;
+  width: 60%;
+}
+.list_data_center a {
+  text-decoration: none;
+  color: #00FFFF;
+  width: 20%;
+}
+.list_data_center a:hover {
+  color: #4169E1;
+}
+/* /Data Center */
+
+
 @media screen and (max-width: 991px) {
 
   .display_none_xs {
@@ -338,6 +394,16 @@ nav ul {
   }
   .screenshot i {
     display: none;
+  }
+
+  #data_center {
+    font-size: 13px;
+  }
+  .list_data_center p {
+    width: 50%;
+  }
+  .list_data_center a {
+    width: 30%;
   }
 
 }
