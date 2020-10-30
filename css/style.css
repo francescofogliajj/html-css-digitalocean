@@ -126,16 +126,19 @@ nav ul {
 .button_google {
   width: 100%;
   margin-bottom: 10px;
+  position: relative;
+}
+.button_google img {
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
 }
 .button_google:hover {
   background-color: white;
   color: #006AFF;
-}
-.button_google i {
-  font-size: 16px;
-}
-.button_google:hover i {
-  color: black;
 }
 .card p a {
   color: #006AFF;
@@ -265,7 +268,7 @@ nav ul {
   border: 2px solid #006AFF;
   background-color: #F3F5F9;
 }
-#btn_icon_selected {
+#btn_icon_selected_1 {
   background-color: #006AFF;
 }
 /* /Designed for developers */
@@ -432,6 +435,10 @@ nav ul {
 }
 .teams a:hover {
   color: #1633FF;
+}
+
+#btn_icon_selected_2 {
+  background-color: #006AFF;
 }
 /* /Development teams */
 
