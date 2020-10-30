@@ -380,7 +380,7 @@ nav ul {
   margin-bottom: 30px;
   padding: 60px;
   background-color: white;
-  box-shadow: 2px 2px 4px lightgrey;
+  box-shadow: 3px 3px 5px lightgrey;
   position: relative;
 }
 
@@ -434,6 +434,40 @@ nav ul {
 }
 /* /Development teams */
 
+/* Get started now */
+#get_started {
+  background-image: url("../img/bg-home-cta.svg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+#get_started h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+#get_started a {
+  text-decoration: none;
+}
+#create_account {
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: white;
+  color: #006AFF;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 1px 1px 3px lightgrey;
+}
+#create_account:hover {
+  background-color: #CBD4E4;
+}
+/* /Get started now */
+
+
 @media screen and (max-width: 991px) {
 
   .display_none_xs {
@@ -454,13 +488,7 @@ nav ul {
   #deploy li {
     margin-left: -40px;
   }
-  #deploy p {
-    padding-bottom: 0;
-  }
 
-  #designed p {
-    margin-bottom: 100px;
-  }
   .screenshot img {
     height: 200px;
   }
