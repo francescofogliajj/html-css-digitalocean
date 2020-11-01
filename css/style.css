@@ -13,7 +13,7 @@ nav {
 
 nav img {
   height: 30px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 nav ul {
@@ -517,6 +517,66 @@ footer h5 {
 }
 /* /Footer */
 
+/* Sharkbot */
+.sharkbot {
+  height: 60px;
+  position: fixed;
+  z-index: 2;
+  bottom: 30px;
+  right: 30px;
+}
+.shark_image {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  border: 1px solid #031B4E;
+  margin-left: 20px;
+  cursor: pointer;
+  background-image: url("https://images.prismic.io/www-static/eceebf5d559465963a9c32c4451e15d2a87d0ff0_sammy-front.png?auto=compress,format");
+  background-size: cover;
+  background-position: center;
+  float: right;
+  position: relative;
+}
+.shark_number {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 3px solid #006AFF;
+  background-color: red;
+  text-align: center;
+  position: absolute;
+  top: -10%;
+  right: -10%;
+}
+.shark_number span {
+  color: white;
+  font-weight: bold;
+  vertical-align: top;
+}
+.shark_text {
+  height: 60px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #006AFF;
+  padding: 8px;
+  cursor: pointer;
+  opacity: 0.8;
+  float: right;
+  position: relative;
+}
+.shark_text p {
+  color: white;
+}
+.shark_text i {
+  color: #006AFF;
+  font-size: 30px;
+  position: absolute;
+  bottom: 3%;
+  right: -3%;
+}
+/* /Sharkbot */
+
 
 /* Tablets (≥768px) */
 @media screen and (max-width: 991px) {
@@ -561,6 +621,28 @@ footer h5 {
   #teams_chevron_left,
   #teams_chevron_right {
     display: none;
+  }
+
+  .sharkbot {
+    bottom: 15px;
+    right: 10px;
+  }
+  .shark_image {
+    height: 55px;
+    width: 55px;
+    margin-left: 15px;
+  }
+  .shark_number {
+    height: 22px;
+    width: 22px;
+  }
+  .shark_number span {
+    font-size: 12px;
+  }
+  .shark_text {
+    height: 55px;
+    width: 270px;
+    padding: 5px;
   }
 
 }
